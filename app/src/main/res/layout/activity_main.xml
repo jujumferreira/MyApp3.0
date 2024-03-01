@@ -9,17 +9,20 @@
 
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/coruja"/>
+        android:src="@drawable/coruja" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="usuario"/>
+
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:maxLength="25"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,7 +31,9 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLength="11"/>
 
     <Button
         android:layout_width="match_parent"
